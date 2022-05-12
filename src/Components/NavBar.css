@@ -1,0 +1,464 @@
+* {
+    box-sizing: border-box;   
+  }
+
+.header{
+    display: flex;
+    position: relative;
+    background-color: white;
+    width: 100%;
+    height:85px;
+}
+.header img{
+    width:100px;
+    height: 60px;
+    margin-left: 70px;
+    margin-top: 11px;
+
+}
+.buttons{
+    display: flex;
+    flex: wrap;
+    justify-content: space-between;
+}
+.buttons .exam{
+    margin-left: 750px;
+}
+.buttons .exam,.examresult,.assignments,.studymaterial{
+    width: 100px;
+    height:30px;
+    background-color: white;
+    border: none;
+    margin-top: 25px;
+}
+.banner h1{
+    margin-top: 40px;
+
+}
+.banner .time{
+    border: none;
+    background-color: #590098;
+    width:70%;
+    height:70px;
+    border-radius: 35px;
+    color: white;
+    margin-right: 35px;
+}
+.timetable table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 80%;
+    margin-left: 140px;
+    margin-top: 50px;
+    background-color: #EB9678;
+  }
+  
+.timetable td, th,tr{
+    border: solid black;
+    text-align: center;
+    padding: 8px;
+  }
+.attend .btns{
+    display: flex;
+    flex: wrap;
+    border: none;
+    margin-left: 140px;
+    width:80%;
+    height:75px;
+    background-color: #590098;
+    color: white;
+    border-radius: 10px;
+}
+.attendence .table{
+    font-family: arial, sans-serif;
+    width: 80%;
+    margin-left: 140px;
+    margin-top: 50px;
+    border: none;
+}
+.attendence  .table th,td {
+    text-align: center;
+    padding: 8px;
+    border: none;
+  }
+  .attendence .table .btn{
+      width:52px;
+      height:40px;
+      text-align: center;
+      align-items: center;
+      border: none;
+      font-weight: bold;
+  }
+  .symbols {
+      display: flex;
+      flex:wrap;
+  }
+  .symbols button{
+    width:52px;
+    height:40px;
+    margin-left: 200px;
+    margin-top: 22px;
+    border: none;
+  }
+  .symbols h3{
+      margin-top: 35px;
+      margin-left: 8px;
+  }
+.head{
+    display: flex;
+    flex: wrap;
+    margin-top: 40px;
+}
+.head button{
+    border: none;
+    background-color: #590098;
+    color: white;
+    width:100px;
+    height:40px;
+}
+.footer{
+    display: flex;
+    position: relative;
+    background-color: #EB9687;
+    width: 100%;
+    height:70px;
+    margin-top: 30px;
+}
+.footer h3{
+    text-align: center;
+    margin-left: 400px;
+    margin-top: 20px;
+}
+/* @media (max-width: 1024px)
+ {
+    .header .studymaterial{
+        margin-right: 60px;
+    }
+    .banner h1{
+        margin-left: 512px;
+    }
+    .banner .time{
+        width:120%;
+        margin-left: 122px;
+    }
+    .timetable table{
+        width: 120%;
+        margin-left: 122px;
+    }
+    .attend h1{
+        margin-left: 512px;
+    }
+    .attend .btns{
+      width: 120%;  
+      margin-left: 122px;
+    }
+    .attendence .table{
+        width: 120%;
+    }
+    .footer{
+        width: 150%;
+    }
+    .footer h3{
+        margin-left: 512px;
+    }
+}
+@media (max-width: 1440px) {
+    .header .buttons {
+        margin-left: -40px;
+    }
+}
+@media (min-width: 768px) {
+    .banner h1{
+        margin-left: 652px;
+    }
+    .banner .time{
+        width:160%;
+        margin-left: 122px;
+    }
+    .timetable table{
+        width: 160%;
+        margin-left: 122px;
+    }
+    .attend h1{
+        margin-left: 652px;
+    }
+    .attend .btns{
+        width: 160%;  
+        margin-left: 122px;
+      }
+       .attendence .table{
+          width: 160%;
+          margin-left: 100px;
+      }
+      .attend .attendence .symbols button{
+         margin-left:160px;
+      }
+       .head button{
+          width:200px;
+      }
+      .footer{
+          width: 190%;
+      }
+      
+}
+@media (min-width: 425px) {
+    .banner h1{
+        margin-left: 682px;
+    } 
+    .banner .time{
+        width:290%;
+        margin-left: 120px;
+    }
+    .timetable table{
+        width: 290%;
+        margin-left: 122px;
+    }
+    .attend h1{
+        margin-left: 682px;
+    }
+    .attend .btns{
+        width: 290%;  
+        margin-left: 122px;
+      }
+    .attendence .table{
+        width: 290%;
+        margin-left: 100px;
+    }
+    .attend .attendence .symbols button{
+       margin-left:170px;
+       height: 20px;
+      
+    }
+    .symbols h3{
+        margin-top: 18px;
+    }
+    .footer{
+        width: 350%;
+    }
+}   */
+
+@media (max-width: 1024px)
+{
+   .header .studymaterial{
+       margin-right: 60px;
+   }
+   .banner h1{
+       margin-left: 512px;
+   }
+   .banner .time{
+       width:120%;
+       margin-left: 122px;
+   }
+   .timetable table{
+       width: 120%;
+       margin-left: 122px;
+   }
+   .attend h1{
+       margin-left: 512px;
+   }
+   .attend .btns{
+     width: 120%;  
+     margin-left: 122px;
+   }
+   .attendence .table{
+       width: 120%;
+   }
+   .footer{
+       width: 150%;
+   }
+   .footer h3{
+       margin-left: 512px;
+   }
+}
+
+@media (max-width: 1440px) {
+    .header .buttons {
+        margin-left: -40px;
+    }
+}
+
+@media (max-width: 768px) {
+    .banner h1{
+        margin-left: 652px;
+    }
+    .banner .time{
+        width:160%;
+        margin-left: 122px;
+    }
+    .timetable table{
+        width: 160%;
+        margin-left: 122px;
+    }
+    .attend h1{
+        margin-left: 652px;
+    }
+    .attend .btns{
+        width: 160%;  
+        margin-left: 122px;
+      }
+       .attendence .table{
+          width: 160%;
+          margin-left: 100px;
+      }
+      .attend .attendence .symbols button{
+         margin-left:160px;
+      }
+       .head .exam1,.examresult1,.assignments1,.studymaterial1{
+           width: 102px;
+           margin-right: 80px;
+           
+      }
+
+      .footer{
+          width: 190%;
+      }      
+}
+
+@media (max-width: 450px) {
+    .banner h1{
+        margin-top: 80px; 
+    }
+    .banner .time{
+        margin-top: 10px;
+        width:190%;
+        margin-left: 400px;
+    }
+    .attend h1{
+        margin-top: 70px;
+    }
+    .timetable table{
+        margin-top: 60px;
+        width: 200%;
+        height:400px;
+        margin-left: 380px;
+    }
+    .attend .btns{
+        width: 240%;  
+        margin-left: 200px;
+      }
+       .attendence .table{
+          width: 200%;
+          margin-left: 380px;
+      }
+      .attend .attendence .symbols button{
+        margin-left:10px;
+        height: 30px;
+       
+     }
+     .symbols h3{
+         margin-top: 18px;
+     }
+     .attend .attendence .symbols .present{
+         margin-left: 420px;
+         width:70px;
+     }
+     .head button{
+        width:250px;
+        margin-left:170px;
+        height: 60px;
+    }
+    .footer{
+        margin-top: 80px;
+        width: 200%;
+        margin-left: 400px;
+    }
+    .footer h3{
+        margin-left: 120px;
+    }
+}
+@media (max-width: 380px) {
+    .banner .time{
+        margin-top: 50px;
+        width:190%;
+        margin-left: 400px;
+    }
+    .footer{
+        margin-top: 80px;
+        width: 200%;
+        margin-left: 400px;
+    }
+    .footer h3{
+        margin-left: 120px;
+    }
+    .attend .btns{
+        width: 272%;  
+        margin-left: 150px;
+        right: 100px;
+      }
+      .timetable table{
+        margin-top: 80px;
+        width: 200%;
+        height:500px;
+        margin-left: 380px;
+    }
+    .attendence .table{
+        width: 200%;
+        height:500px;
+        margin-left: 380px;
+    }
+}
+
+@media (max-width: 320px) {
+    /* .header .buttons{
+        display: flex;
+        flex-direction: column;
+    }
+  .header .buttons .exam{
+        margin-right: 100px;
+    } */
+    .header .buttons{
+        width:100px;
+    }
+    .banner .time{
+        margin-top: 50px;
+        width:190%;
+        margin-left: 400px;
+    }
+    .timetable table{
+        margin-top: 80px;
+        width: 180%;
+        height:500px;
+        margin-left: 400px;
+    }
+    .attend .btns{
+        margin-top: 80px;
+        width: 190%;  
+        margin-left: 400px;
+      }
+      .attend .btns .presents{
+          margin-right: -180px;
+      }
+      .attend .btns .pres{
+        margin-right: -160px;
+    }
+    .attend .btns .absents{
+        margin-right: -80px;
+    }
+    .attend .btns .da{
+        margin-right: -80px;
+    }
+      .attend .attendence .symbols button {
+        margin-left:180px;
+        height: 40px;
+        width: 60px;
+        margin-top: 20px;
+       
+     }
+     .attendence .table{
+        width: 180%;
+        height:500px;
+        margin-left: 400px;
+    }
+      .head button{
+        margin-left: 120px;
+        margin-top: 80px;
+    }
+    .footer{
+        margin-top: 80px;
+        width: 200%;
+        margin-left: 400px;
+    }
+    .footer h3{
+        margin-left: 50px;
+    }
+}
